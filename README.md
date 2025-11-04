@@ -9,5 +9,5 @@ Follow the instructions displayed on the board. Instructions should appear when 
 Push the buttom to initialize the movement that you want to use to unlock the board (create key). 
 When the same movement is created, the board should unlock. When a different movement is created, the board should remain locked. 
 
-The program records the spacial location and velocity of the movements and uses Dynamic Time Warping to calculate the similarity between the key movement and the new movement. 
+The program records the spatial location and velocity of the movements and uses Dynamic Time Warping to calculate the similarity between the key movement and the new movement. 
 There is a "gesture tolerence" of 90 to account for movement error but keep classification error between lock/unlock minimal. 
