@@ -15,5 +15,6 @@ Short press (< 2 seconds) the button to try a new movement. When the same moveme
 When a different movement is created, the board should remain locked. 
 <img width="408" height="780" alt="unlock fail" src="https://github.com/user-attachments/assets/edd8917e-9a22-4cb2-8338-72f8d6d91f54" />
 
+
 The program records the spatial location and velocity of the movements and uses Dynamic Time Warping to calculate the similarity between the key movement and the new movement. 
 There is a "gesture tolerence" of 90 to account for movement error but keep classification error between lock/unlock minimal. 
