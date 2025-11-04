@@ -11,7 +11,7 @@ Long press (> 2 seconds) the button to initialize the movement that you want to 
 
 Short press (< 2 seconds) the button to try a new movement. When the same movement is created, the board should unlock. 
 <img width="616" height="838" alt="unlock successful" src="https://github.com/user-attachments/assets/dc694698-5374-4907-ba8e-c2f440a13eb0" />
-<br>
+<br />
 When a different movement is created, the board should remain locked. 
 <img width="408" height="780" alt="unlock fail" src="https://github.com/user-attachments/assets/edd8917e-9a22-4cb2-8338-72f8d6d91f54" />
 
