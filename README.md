@@ -1,11 +1,13 @@
 # embedded-sentry
-This is a repo that is intended to connect with a device "ST 32F429IDISCOVERY board" in Mbed framework. 
 This is the repository for the Real-Time-Embedded-Sentry project to lock or unlock a gyroscope device based on the "key" movement by recording the spacial movement and acceleration.
+This is a repo that is intended to connect with a device "ST 32F429IDISCOVERY board" in Mbed framework. 
 
+# running the project
 To run on VSCode, first install the PlatformIO extension. 
 Clone the repo and run the main.cpp file. 
 Connect the board to the computer running the program. 
 
+# interacting with the board
 Follow the instructions displayed on the board. Instructions should appear when the board is connected to the program and the app is running successfully. 
 Long press (> 2 seconds) the button to initialize the movement that you want to use to unlock the board (create key). 
 
